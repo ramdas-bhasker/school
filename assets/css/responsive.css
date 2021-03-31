@@ -1,0 +1,190 @@
+@media only screen and (min-width: 991px) and (max-width: 1220px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .btco-hover-menu .show>.dropdown-toggle::after {
+        transform: rotate(-90deg);
+    }
+    .page-banner-inner h1 {
+        font-size: 4rem;
+    }
+    .navbar-toggler {
+        border-color: #000000;
+    }
+    .navbar-toggler {
+        padding: .25rem .25rem;
+        margin: 10px 15px;
+    }
+    .navbar-collapse {
+        background-color: #ffffff;
+    }
+    .nav-item {
+        border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    }
+    .slick-next {
+        right: 0;
+    }
+    .slick-prev {
+        left: 0;
+    }
+    .list-wrap li {
+        width: 50%;
+    }
+    .big-hero {
+        padding: 20px 0;
+    }
+    .hero__media {
+        margin-top: 50px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .map {
+        width: 90%;
+        margin: auto;
+    }
+    .sticky {
+        position: relative;
+    }
+    .navbar-nav>.nav-item>.nav-link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .features_list {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1100px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .btco-hover-menu .collapse ul li {
+        position: relative;
+    }
+    .btco-hover-menu .collapse ul li:hover>ul {
+        display: block
+    }
+    .btco-hover-menu .collapse ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 250px;
+        display: none
+    }
+    /*******/
+    .btco-hover-menu .collapse ul ul li {
+        position: relative
+    }
+    .btco-hover-menu .collapse ul ul li:hover>ul {
+        display: block
+    }
+    .btco-hover-menu .collapse ul ul ul {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        min-width: 250px;
+        display: none
+    }
+    /*******/
+    .btco-hover-menu .collapse ul ul ul li {
+        position: relative
+    }
+    .btco-hover-menu .collapse ul ul ul li:hover ul {
+        display: block
+    }
+    .btco-hover-menu .collapse ul ul ul ul {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        min-width: 250px;
+        display: none;
+        z-index: 1
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 80%;
+    }
+    .page-banner-inner {
+        height: 200px;
+    }
+    .page-banner-inner h1 {
+        font-size: 2rem;
+    }
+    .list-wrap li {
+        width: 100%;
+    }
+    .big-hero {
+        padding: 20px 0;
+    }
+    .grid__item {
+        margin-bottom: 30px;
+        display: block;
+    }
+    footer {
+        padding-top: 30px;
+    }
+    .banner2 {
+        min-height: 300px;
+    }
+    .navbar-nav>.nav-item>.nav-link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .ftco-about .img-2,
+    .ftco-about .img {
+        position: relative;
+        top: 0;
+    }
+    .mob-none {
+        display: none;
+    }
+    .staff-header2 h3,
+    .staff-header2 .space {
+        display: block;
+    }
+    .mega-drop-menu {
+        min-width: 18rem !important;
+    }
+    .why-us,
+    .why-choose-us {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .section--leftright .text-side {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .section--leftright .pad-lft {
+        padding-left: 70px;
+    }
+    .section--leftright .pad-rgt {
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .why-us,
+    .why-choose-us {
+        padding-right: 0px;
+    }
+    .why-us ul li,
+    .why-choose-us ul li {
+        width: 100%;
+    }
+}
